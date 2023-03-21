@@ -13,8 +13,8 @@ function showBooks() {
   books.innerHTML = '';
   booksArr.forEach((book, index) => {
     const appendBook = `
-            <span>${book.title}</span><br>
-            <span>${book.author}</span><br>
+            <h3>${book.title}</h3><br>
+            <h4>${book.author}</h4><br>
             <button id="btn-${index}">remove</button>
             <hr>
         `;
