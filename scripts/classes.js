@@ -61,5 +61,3 @@ class BookList {
     }
   }
 }
-
-const bookList = new BookList();
