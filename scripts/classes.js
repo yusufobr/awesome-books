@@ -1,3 +1,6 @@
+const title = document.getElementById('title');
+const author = document.getElementById('author');
+
 class BookList {
   constructor() {
     this.title = document.getElementById('title');
@@ -61,3 +64,7 @@ class BookList {
     }
   }
 }
+
+const booklist = new BookList(title, author);
+
+booklist.title = title.value;
