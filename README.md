@@ -46,6 +46,8 @@
   > A feature that allows you to store data on the client-side
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+> - **[ES6]**
+  > changing the the objects to classes.
 
 <!-- GETTING STARTED -->
 
