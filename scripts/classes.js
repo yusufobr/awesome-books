@@ -67,4 +67,4 @@ class BookList {
 
 const booklist = new BookList(title, author);
 
-booklist.title = title.value;
+booklist.title = title;
