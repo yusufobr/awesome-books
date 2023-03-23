@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .g-bg {
   background-color: rgb(230, 230, 230);
   height: 30px;
@@ -44,6 +43,16 @@
   margin-top: 50px;
 }
 
+.contact {
+  width: 80vh;
+  display: flex;
+  gap: 20;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -53,7 +62,6 @@
 
 .header a {
     text-decoration: none;
-    color: black;
     font-weight: 900;
 }
 
@@ -61,13 +69,13 @@ nav ul {
     display: flex;
     gap: 12px;
 }
-li {
+nav li {
     list-style: none;
 }
 
 li a {
     text-decoration: none;
-    color: black;
+    cursor: pointer;
 }
 
 #show-date {
@@ -89,11 +97,19 @@ article div {
 #books {
   border: 2px solid gray;
   padding: 0;
+  min-height: 45vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form input {
   margin-bottom: 6px;
   height: 20px;
+  width: 60%;
 }
 
 .form button {
@@ -106,4 +122,24 @@ article div {
 
 #show-date {
     padding-right: 10px;
+}
+
+.footer {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 40px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hidden {
+    display: none;
+}
+.blue {
+    color: blue;
+}
+.logo {
+    color: black;
 }
