@@ -10,9 +10,9 @@
 }
 
 .w-bg {
-    background-color: rgb(250, 250, 250);
-    height: 30px;
-    padding: 8px;
+  background-color: rgb(250, 250, 250);
+  height: 30px;
+  padding: 8px;
 }
 
 .g-bg button {
@@ -46,7 +46,7 @@
 .contact {
   width: 80vh;
   display: flex;
-  gap: 20;
+  gap: 20px;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -54,38 +54,40 @@
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    padding: 10px;
-}
-
-.header a {
-    text-decoration: none;
-    font-weight: 900;
-}
-
-nav ul {
-    display: flex;
-    gap: 12px;
-}
-nav li {
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 10px;
 }
 
 li a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+nav ul {
+  display: flex;
+  gap: 12px;
+}
+
+nav li {
+  list-style: none;
 }
 
 #show-date {
-    text-align: right
+  text-align: right;
+  padding-right: 10px;
 }
 
 span {
-    width: 2px;
-    height: 16px;
-    background-color: black;
+  width: 2px;
+  height: 16px;
+  background-color: black;
 }
 
 article div {
@@ -101,9 +103,9 @@ article div {
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form input {
@@ -120,26 +122,24 @@ article div {
   box-shadow: 3px 3px 0 black;
 }
 
-#show-date {
-    padding-right: 10px;
-}
-
 .footer {
-    border: 2px solid black;
-    padding: 10px;
-    margin-bottom: 40px;
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
+
 .blue {
-    color: blue;
+  color: blue;
 }
+
 .logo {
-    color: black;
+  color: black;
 }

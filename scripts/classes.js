@@ -1,6 +1,5 @@
-const titleInput = document.getElementById('title');
-const authorInput = document.getElementById('author');
-
+const title = document.getElementById('title');
+const author = document.getElementById('author');
 
 class BookList {
   constructor() {
