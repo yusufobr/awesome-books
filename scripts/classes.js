@@ -1,5 +1,6 @@
-const title = document.getElementById('title');
-const author = document.getElementById('author');
+const titleInput = document.getElementById('title');
+const authorInput = document.getElementById('author');
+
 
 class BookList {
   constructor() {
@@ -27,7 +28,7 @@ class BookList {
       const bookContainer = document.createElement('div');
 
       bookContainer.id = `book-${index}`;
-      bookContainer.classList.add(`${(!index % 2) ? 'g-bg' : 'w-bg'}`);
+      bookContainer.classList.add(`${(index % 2) ? 'g-bg' : 'w-bg'}`);
       bookContainer.innerHTML = appendBook;
       this.books.appendChild(bookContainer);
 
