@@ -49,6 +49,9 @@
 > - **[ES6]**
   > changing the the objects to classes.
 
+> - **[Navigation]**
+  > adding navigation for contacts booklists and adding books.
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

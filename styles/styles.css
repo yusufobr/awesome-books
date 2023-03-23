@@ -3,18 +3,16 @@
   padding: 0;
 }
 
-div {
-  margin-bottom: 10px;
-}
-
 .g-bg {
   background-color: rgb(230, 230, 230);
   height: 30px;
+  padding: 8px;
 }
 
 .w-bg {
   background-color: rgb(250, 250, 250);
   height: 30px;
+  padding: 8px;
 }
 
 .g-bg button {
@@ -23,6 +21,7 @@ div {
   background: rgb(218, 218, 255);
   font-weight: 700;
   text-transform: capitalize;
+  box-shadow: 3px 3px 0 black;
 }
 
 .w-bg button {
@@ -31,16 +30,64 @@ div {
   background: rgb(218, 218, 255);
   font-weight: 700;
   text-transform: capitalize;
+  box-shadow: 3px 3px 0 black;
 }
 
 .container {
-  width: 50vh;
+  width: 80vh;
   margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 50px;
+}
+
+.contact {
+  width: 80vh;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+nav ul {
+  display: flex;
+  gap: 12px;
+}
+
+nav li {
+  list-style: none;
+}
+
+#show-date {
+  text-align: right;
+  padding-right: 10px;
+}
+
+span {
+  width: 2px;
+  height: 16px;
+  background-color: black;
 }
 
 article div {
@@ -52,11 +99,19 @@ article div {
 #books {
   border: 2px solid gray;
   padding: 0;
+  min-height: 45vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form input {
   margin-bottom: 6px;
   height: 20px;
+  width: 60%;
 }
 
 .form button {
@@ -64,4 +119,27 @@ article div {
   background: rgb(218, 218, 255);
   font-weight: 700;
   text-transform: capitalize;
+  box-shadow: 3px 3px 0 black;
+}
+
+.footer {
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.blue {
+  color: blue;
+}
+
+.logo {
+  color: black;
 }

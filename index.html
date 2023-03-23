@@ -8,18 +8,63 @@
     <title>Awesome Books</title>
   </head>
   <body>
-    <section>
+    <header>
       <div class="container">
-        <h1>Awesome Books</h1>
-        <article id="books"></article>
-        <div class="form">
-          <input type="text" id="title" placeholder="Title" required /> <br />
-          <input type="text" id="author" placeholder="Author" required /> <br />
-          <button id="add-btn">Add</button>
+        <div class="header">
+          <a class="logo" href="#">Awesome Books</a>
+          <nav>
+            <ul>
+              <li><a id="nav-list" class="blue">List</a></li>
+              <span></span>
+              <li><a id="nav-add">Add New</a></li>
+              <span></span>
+              <li><a id="nav-contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
+        <div id="show-date">March 19th 2021 9:25:32 am</div>
       </div>
-    </section>
+    </header>
+    <main>
+      <section id="all-books" class="">
+        <div class="container">
+          <h2>All Awesome Books</h2>
+          <article id="books"></article>
+        </div>
+      </section>
+      <section id="add-new" class="hidden">
+        <div class="container">
+          <h2>Add new book</h2>
+          <div class="form">
+            <input type="text" id="title" placeholder="Title" required />
+            <input type="text" id="author" placeholder="Author" required />
+            <button id="add-btn">Add</button>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="hidden">
+        <div class="contact container">
+          <h2>Contact information</h2>
+          <p>
+            Do you have any questions or you just want to say "Hello"? <br />You
+            can reach out to us!
+          </p>
+          <ul>
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our phone number: 0043586534422</li>
+            <li>Ouu address: Streetname 20, 58464 City, Country</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer">
+        <p>Copywrite</p>
+      </div>
+    </footer>
     <!-- <script src="./scripts/script.js"></script> -->
     <script src="./scripts/classes.js"></script>
+    <script src="./scripts/date.js"></script>
+    <script src="./scripts/dynamicNavigation.js"></script>
   </body>
 </html>
