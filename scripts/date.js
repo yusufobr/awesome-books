@@ -5,7 +5,7 @@ function getCurrentDateTime() {
     const day = date.getDate();
     const year = date.getFullYear();
     let hours = date.getHours();
-    const minutes = date.getMinutes();
+    const minutes = date.getMinutes(); 
     const seconds = date.getSeconds();
     const ampm = hours >= 12 ? 'pm' : 'am';
     hours = hours % 12;
